@@ -32,6 +32,7 @@ public class EscomActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escom);
+
         db = FirebaseDatabase.getInstance().getReference();
 
         fullName = findViewById(R.id.fullname);
