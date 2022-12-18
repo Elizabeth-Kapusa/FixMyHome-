@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737094948303",
+    "firebase_url": "https://fixmyhome-6c898-default-rtdb.firebaseio.com",
+    "project_id": "fixmyhome-6c898",
+    "storage_bucket": "fixmyhome-6c898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737094948303:android:d2c45b0cee4d09ffa26eba",
+        "android_client_info": {
+          "package_name": "com.example.image"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737094948303-2vog9kpcq6r2hgtaddl9p4dd3a73qgei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5MBOzcANGqCwC0EuRtu_tMLl64aI5jhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737094948303-2vog9kpcq6r2hgtaddl9p4dd3a73qgei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
