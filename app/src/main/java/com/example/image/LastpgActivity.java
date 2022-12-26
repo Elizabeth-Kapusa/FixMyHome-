@@ -8,15 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class LastpgActivity extends AppCompatActivity {
-    private Button button;
+    private Button submitBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lastpg);
 
-        button = (Button) findViewById(R.id.submit);
-        button.setOnClickListener(new View.OnClickListener() {
+        submitBtn = (Button) findViewById(R.id.submitBtn);
+        submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 submit();
@@ -24,7 +24,7 @@ public class LastpgActivity extends AppCompatActivity {
         });
     }
     public void submit() {
-        Intent intent = new Intent(this, IntroActivity.class);
+        Intent intent = new Intent(this,WelcomeActivity.class);
         startActivity(intent);
     }
 

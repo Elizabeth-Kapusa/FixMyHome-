@@ -56,6 +56,8 @@ public class MwbActivity extends AppCompatActivity {
 
         db.setValue(userMap);
 
+        Intent intent = new Intent(this,LastpgActivity.class);
+        startActivity(intent);
         if(db.setValue(userMap).isSuccessful())
         {
             System.out.println("success");

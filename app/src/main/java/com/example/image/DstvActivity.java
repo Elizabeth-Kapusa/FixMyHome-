@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.Task;
-import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -58,6 +56,8 @@ public class DstvActivity extends AppCompatActivity {
 
         db.setValue(userMap);
 
+        Intent intent = new Intent(this,LastpgActivity.class);
+        startActivity(intent);
         if(db.setValue(userMap).isSuccessful())
         {
             System.out.println("success");

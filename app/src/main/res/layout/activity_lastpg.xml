@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Great!"
-        android:textColor="#0B0B0B"
+        android:textColor="#ffffff"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,6 +40,7 @@
         android:text="Your complaint is being processed, you will receive a complaint receipt from our team."
         android:textSize="30dp"
         android:textStyle="bold"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -48,13 +49,14 @@
         app:layout_constraintVertical_bias="0.339" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submitBtn"
         android:layout_width="216dp"
         android:layout_height="63dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:text="Back To Home Page"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

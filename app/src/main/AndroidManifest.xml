@@ -4,6 +4,8 @@
     package="com.example.image">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -26,10 +28,10 @@
             android:exported="false" />
         <activity
             android:name=".MwbActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".EscomActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".WelcomeActivity"
             android:exported="false" />
